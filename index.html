@@ -18,23 +18,35 @@
 		<!--Navigation Header-->
 		<nav class="nav__header">
 			<a href="#"><img class="nav__logo" src="./images/logo/odin-recipe-logo.svg" alt="Odin Recipe's Logo"></a>
-			<input type="text" class="nav__search-bar">
-			<a href="#"><span class="material-symbols-outlined nav__search-icon">search</span></a>
 			
-			<!--User Activity-->
-			<div class="activity__div">
-				<span class="material-symbols-outlined activity__icon">inbox</span>
+
+
+			<!--Search Bar-->
+			<div class="nav__search-bar">
+				<input type="text" class="search-bar__input-text">
+				<span class="material-symbols-outlined search-bar__icon">search</span>
 			</div>
 
-			<div class="activity__div">
-				<span class="material-symbols-outlined activity__icon">notifications</span>
-			</div>
-			
-			<!--User Profile-->
-			<div class="nav__profile">
-				<img class="profile__image" src="./images/navigation-header/user-profile-picture.webp" alt="Your profile picture">
-				<p>Chef Odin</p>
-				<span class="material-symbols-outlined profile__icon">arrow_drop_down</span>
+			<!--Container for User Activity & User Profile-->
+			<div class="container__activity-profile">	
+				<!--User Activity-->
+				<div class="user-activity__div">
+					<div class="activity__div">
+						<span class="material-symbols-outlined activity__icon">inbox</span>
+					</div>
+
+					<div class="activity__div">
+						<span class="material-symbols-outlined activity__icon">notifications</span>
+					</div>		
+				</div>
+
+				
+				<!--User Profile-->
+				<div class="nav__profile">
+					<img class="profile__image" src="./images/navigation-header/user-profile-picture.webp" alt="Your profile picture">
+					<p>Chef Odin</p>
+					<span class="material-symbols-outlined profile__icon">arrow_drop_down</span>
+				</div>
 			</div>
 		</nav>
 		
