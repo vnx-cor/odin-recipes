@@ -14,6 +14,7 @@ body {
 
 /*Navigation Header*/
 .nav__header {
+	position: fixed;
 	display: flex;
 	justify-content: space-between;
 	background-color: #FFFFFF;
@@ -88,4 +89,13 @@ body {
 	width: 3rem;
 	height: 3rem;
 	border-radius: 50%;
+}
+
+/*Navigation Sidebar*/
+.nav__sidebar {
+	background-color: #FFFFFF;
+	width: 250px;
+	height: 100vh;
+	position: fixed;
+	top: 4.1rem;
 }
