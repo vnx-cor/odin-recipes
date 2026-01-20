@@ -98,4 +98,14 @@ body {
 	height: 100vh;
 	position: fixed;
 	top: 4.1rem;
+	padding-top: 2rem;
+}
+
+.sidebar__anchor {
+	text-decoration: none;
+	color: black;
+	display: block;
+	font-size: 1.3rem;
+	padding-left: 2rem;
+	padding-bottom: 2rem;
 }
