@@ -17,15 +17,24 @@
 	<body>	
 		<!--Navigation Header-->
 		<nav class="nav__header">
-			<a href="#"><img src="./images/logo/Odin Recipe Logo.svg" alt="Odin Recipe's Logo"></a>
-			<input type="text" class="searchbar">
-			<a href="#"><span class="material-symbols-outlined">search</span></a>
+			<a href="#"><img class="nav__logo" src="./images/logo/odin-recipe-logo.svg" alt="Odin Recipe's Logo"></a>
+			<input type="text" class="nav__search-bar">
+			<a href="#"><span class="material-symbols-outlined nav__search-icon">search</span></a>
+			
+			<!--User Activity-->
+			<div class="activity__div">
+				<span class="material-symbols-outlined activity__icon">inbox</span>
+			</div>
+
+			<div class="activity__div">
+				<span class="material-symbols-outlined activity__icon">notifications</span>
+			</div>
 			
 			<!--User Profile-->
 			<div class="nav__profile">
-				<img src="" alt="Your profile picture">
+				<img class="profile__image" src="./images/navigation-header/user-profile-picture.webp" alt="Your profile picture">
 				<p>Chef Odin</p>
-				<span class="material-symbols-outlined">arrow_drop_down</span>
+				<span class="material-symbols-outlined profile__icon">arrow_drop_down</span>
 			</div>
 		</nav>
 		
