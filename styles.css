@@ -1,3 +1,7 @@
+:root {
+	--font-header: Inter, Helvetica, sans-serif; /*Would also be used for links*/
+}
+
 *, 
 *::before,
 *::after {
@@ -105,7 +109,8 @@ body {
 	text-decoration: none;
 	color: black;
 	display: block;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
+	font-family: var(--font-header);
 	padding-left: 2rem;
 	padding-bottom: 2rem;
 }
