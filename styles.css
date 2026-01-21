@@ -130,3 +130,14 @@ body {
 .sidebar__icon--large {
 	font-size: 1.95rem !important;
 }
+
+/*Hero Section*/
+.hero__container {
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+		url('./images/homepage-body/hero-section-bg.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	max-width: 700px;
+	height: 400px;
+}
