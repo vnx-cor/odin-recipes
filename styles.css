@@ -105,12 +105,28 @@ body {
 	padding-top: 2rem;
 }
 
+.sidebar__container {
+	display: flex;
+	width: 160px;
+	padding: 0.2rem;
+	margin-bottom: 2rem;
+	margin-left: 1.5rem; 
+	align-items: center;
+}
+
+.sidebar__icon {
+	font-size: 1.8rem !important;
+}
+
 .sidebar__anchor {
 	text-decoration: none;
 	color: black;
 	display: block;
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 	font-family: var(--font-header);
-	padding-left: 2rem;
-	padding-bottom: 2rem;
+	padding-left: 0.8rem;
+}
+
+.sidebar__icon--large {
+	font-size: 1.95rem !important;
 }
