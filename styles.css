@@ -17,8 +17,18 @@ body {
 	height: auto;
 }
 
+/*Homepage Container*/
+.homepage__div {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr); 
+	grid-template-rows: repeat(8, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
 /*Navigation Header*/
 .nav__header {
+	grid-area: 1 / 1 / 2 / 8;
 	position: fixed;
 	display: flex;
 	justify-content: space-between;
@@ -98,6 +108,7 @@ body {
 
 /*Navigation Sidebar*/
 .nav__sidebar {
+	grid-area: 2 / 1 / 9 / 2;
 	background-color: #FFFFFF;
 	width: 250px;
 	height: 100vh;
@@ -130,6 +141,11 @@ body {
 
 .sidebar__icon--large {
 	font-size: 1.95rem !important;
+}
+
+/*Body Content Container*/
+.body__content {
+	grid-area: 2 / 2 / 9 / 5;	
 }
 
 /*Hero Section*/
