@@ -1,5 +1,6 @@
 :root {
 	--font-header: Inter, Helvetica, sans-serif; /*Would also be used for links*/
+	--font-body: "Roboto", sans-serif;
 }
 
 *, 
