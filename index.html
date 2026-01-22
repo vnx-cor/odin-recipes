@@ -19,483 +19,486 @@
 		<!--Icon Library link from Font Awesome-->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
-	<body>	
-		<!--Navigation Header-->
-		<nav class="nav__header">
-			<a href="#"><img class="nav__logo" src="./images/logo/odin-recipe-logo.svg" alt="Odin Recipe's Logo"></a>
-			
-			<!--Search Bar-->
-			<div class="nav__search-bar">
-				<input type="text" class="search-bar__input-text">
-				<span class="material-symbols-outlined search-bar__icon">search</span>
-			</div>
-
-			<!--Container for User Activity & User Profile-->
-			<div class="container__activity-profile">	
-				<!--User Activity-->
-				<div class="user-activity__div">
-					<div class="activity__div">
-						<span class="material-symbols-outlined activity__icon">inbox</span>
-					</div>
-
-					<div class="activity__div">
-						<span class="material-symbols-outlined activity__icon">notifications</span>
-					</div>		
-				</div>
+	<body>
+		<!--Homepage Container (Grid)-->
+		<div class="homepage__div">
+			<!--Navigation Header-->
+			<nav class="nav__header">
+				<a href="#"><img class="nav__logo" src="./images/logo/odin-recipe-logo.svg" alt="Odin Recipe's Logo"></a>
 				
-				<!--User Profile-->
-				<div class="nav__profile">
-					<img class="profile__image" src="./images/navigation-header/user-profile-picture.webp" alt="Your profile picture">
-					<p>Chef Odin</p>
-					<span class="material-symbols-outlined profile__icon">arrow_drop_down</span>
+				<!--Search Bar-->
+				<div class="nav__search-bar">
+					<input type="text" class="search-bar__input-text">
+					<span class="material-symbols-outlined search-bar__icon">search</span>
 				</div>
+
+				<!--Container for User Activity & User Profile-->
+				<div class="container__activity-profile">	
+					<!--User Activity-->
+					<div class="user-activity__div">
+						<div class="activity__div">
+							<span class="material-symbols-outlined activity__icon">inbox</span>
+						</div>
+
+						<div class="activity__div">
+							<span class="material-symbols-outlined activity__icon">notifications</span>
+						</div>		
+					</div>
+					
+					<!--User Profile-->
+					<div class="nav__profile">
+						<img class="profile__image" src="./images/navigation-header/user-profile-picture.webp" alt="Your profile picture">
+						<p>Chef Odin</p>
+						<span class="material-symbols-outlined profile__icon">arrow_drop_down</span>
+					</div>
+				</div>
+			</nav>
+			
+			<!--Navigation Sidebar-->
+			<nav class="nav__sidebar">
+				<!--Sidebar Anchors-->
+				<div class="sidebar__container">
+					<span id="" class="material-symbols-outlined sidebar__icon sidebar__icon--large">home</span>
+					<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Home</a>
+				</div>
+
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon">category</span>
+					<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Category</a>
+				</div>
+
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon">equalizer</span>
+					<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">My status</a>
+				</div>
+
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon">browse_activity</span>
+					<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Activity log</a>
+				</div>
+
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon">add_box</span>
+					<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Create</a>
+				</div>
+
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon">account_circle</span>
+					<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Profile</a>
+				</div>
+
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon">settings</span>
+					<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Settings</a>
+				</div>
+			</nav>
+
+			<!--Hero Section-->
+			<div class="hero__container">
+				<h1 class="hero__text">Heartwarming recipes for cozy moments at home</h1>
+				
+				<!--CTA Button-->
+				<button class="hero__button button__text button__icon">See More <span class="material-symbols-outlined">east</span></button>
 			</div>
-		</nav>
+
+			<!--Categories Section-->
+			<section class="section__categories">
+				<h3>Categories</h3>
 		
-		<!--Navigation Sidebar-->
-		<nav class="nav__sidebar">
-			<!--Sidebar Anchors-->
-			<div class="sidebar__container">
-				<span id="" class="material-symbols-outlined sidebar__icon sidebar__icon--large">home</span>
-				<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Home</a>
-			</div>
+				<!--Categories List-->
+				<button class="category-card">Soup</button>
+				<button class="category-card">Meal</button>
+				<button class="category-card">Dessert</button>
+				<button class="category-card">Cuisine</button>
+				<button class="category-card">Snacks</button>
+				<button class="category-card">Beverages</button>
+			</section>
+		
+			<!--Recommendation Section-->
+			<section class="section__recommendation">
+			<h3>Popular picks</h3>
+				<!--Dishes-->
 
-			<div class="sidebar__container">
-				<span class="material-symbols-outlined sidebar__icon">category</span>
-				<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Category</a>
-			</div>
+				<!--Honey Soy Glazed Salmon-->
+				<article>
+					<!--Dish Image-->
+					<img src="" alt="">
+					
+					<!--Description-->
+					<p class="author">Marin Saffron</p>				
+					
+					<h4>Honey Soy Glazed Salmon</h4>
 
-			<div class="sidebar__container">
-				<span class="material-symbols-outlined sidebar__icon">equalizer</span>
-				<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">My status</a>
-			</div>
-
-			<div class="sidebar__container">
-				<span class="material-symbols-outlined sidebar__icon">browse_activity</span>
-				<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Activity log</a>
-			</div>
-
-			<div class="sidebar__container">
-				<span class="material-symbols-outlined sidebar__icon">add_box</span>
-				<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Create</a>
-			</div>
-
-			<div class="sidebar__container">
-				<span class="material-symbols-outlined sidebar__icon">account_circle</span>
-				<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Profile</a>
-			</div>
-
-			<div class="sidebar__container">
-				<span class="material-symbols-outlined sidebar__icon">settings</span>
-				<a href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Settings</a>
-			</div>
-		</nav>
-
-		<!--Hero Section-->
-		<div class="hero__container">
-			<h1 class="hero__text">Heartwarming recipes for cozy moments at home</h1>
-			
-			<!--CTA Button-->
-			<button class="hero__button button__text button__icon">See More <span class="material-symbols-outlined">east</span></button>
-		</div>
-
-		<!--Categories Section-->
-		<section class="section__categories">
-			<h3>Categories</h3>
-	
-			<!--Categories List-->
-			<button class="category-card">Soup</button>
-			<button class="category-card">Meal</button>
-			<button class="category-card">Dessert</button>
-			<button class="category-card">Cuisine</button>
-			<button class="category-card">Snacks</button>
-			<button class="category-card">Beverages</button>
-		</section>
-	
-		<!--Recommendation Section-->
-		<section class="section__recommendation">
-		<h3>Popular picks</h3>
-			<!--Dishes-->
-
-			<!--Honey Soy Glazed Salmon-->
-			<article>
-				<!--Dish Image-->
-				<img src="" alt="">
-				
-				<!--Description-->
-				<p class="author">Marin Saffron</p>				
-				
-				<h4>Honey Soy Glazed Salmon</h4>
-
-				<!--Ratings-->
-				<div class="rating">
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star-half-o checked"></span>
-					<p>(4.7)</p>
-				</div>
-
-				<!--Tags-->
-				<div class="tags">
-					<!--Cooking Method Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">stockpot</span>
-						<p class="tag__text">Pan-searing / Baking</p>						
+					<!--Ratings-->
+					<div class="rating">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star-half-o checked"></span>
+						<p>(4.7)</p>
 					</div>
 
-					<!--Dietary Preference Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">allergies</span>
-						<p class="tag__text">Gluten-Free</p>						
-					</div>
+					<!--Tags-->
+					<div class="tags">
+						<!--Cooking Method Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">stockpot</span>
+							<p class="tag__text">Pan-searing / Baking</p>						
+						</div>
 
-					<!--Skill Level Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">heat</span>
-						<p class="tag__text">Intermediate</p>
-					</div>	
-				</div>
-			</article>
-			
-			<!--Creamy Spinach Pasta-->
-			<article>
-				<!--Dish Image-->
-				<img src="" alt="">
+						<!--Dietary Preference Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">allergies</span>
+							<p class="tag__text">Gluten-Free</p>						
+						</div>
+
+						<!--Skill Level Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">heat</span>
+							<p class="tag__text">Intermediate</p>
+						</div>	
+					</div>
+				</article>
 				
-				<!--Dish Description-->
-				<p class="author">Gideon “Grit” Pâté</p>				
-				
-				<h4>Creamy Spinach Pasta</h4>
+				<!--Creamy Spinach Pasta-->
+				<article>
+					<!--Dish Image-->
+					<img src="" alt="">
+					
+					<!--Dish Description-->
+					<p class="author">Gideon “Grit” Pâté</p>				
+					
+					<h4>Creamy Spinach Pasta</h4>
 
-				<!--Ratings-->
-				<div class="rating">
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<p>(4.3)</p>			
-				</div>
-
-				<!--Tags-->
-				<div class="tag">
-					<!--Cooking Method Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">stockpot</span>
-						<p class="tag__text">Stovetop</p>						
+					<!--Ratings-->
+					<div class="rating">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<p>(4.3)</p>			
 					</div>
 
-					<!--Dietary Preference Tag-->
+					<!--Tags-->
 					<div class="tag">
-						<span class="material-symbols-outlined">allergies</span>
-						<p class="tag__text">Vegetarian</p>						
+						<!--Cooking Method Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">stockpot</span>
+							<p class="tag__text">Stovetop</p>						
+						</div>
+
+						<!--Dietary Preference Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">allergies</span>
+							<p class="tag__text">Vegetarian</p>						
+						</div>
+
+						<!--Skill Level Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">heat</span>
+							<p class="tag__text">Easy</p>
+						</div>					
+					</div>
+				</article>
+
+				<!--Grilled Yogurt Lime Chicken-->
+				<article>
+					<!--Dish Image-->
+					<img src="" alt="">
+					
+					<!--Dish Description-->
+					<p class="author">Luna Thyme</p>				
+					
+					<h4>Grilled Yogurt Lime Chicken</h4>
+
+					<!--Ratings-->
+					<div class="rating">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star-half-o checked"></span>
+						<p>(4.5)</p>			
 					</div>
 
-					<!--Skill Level Tag-->
+					<!--Tags-->
 					<div class="tag">
-						<span class="material-symbols-outlined">heat</span>
-						<p class="tag__text">Easy</p>
-					</div>					
-				</div>
-			</article>
+						<!--Cooking Method Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">stockpot</span>
+							<p class="tag__text">Grilling</p>						
+						</div>
 
-			<!--Grilled Yogurt Lime Chicken-->
-			<article>
-				<!--Dish Image-->
-				<img src="" alt="">
-				
-				<!--Dish Description-->
-				<p class="author">Luna Thyme</p>				
-				
-				<h4>Grilled Yogurt Lime Chicken</h4>
+						<!--Dietary Preference Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">allergies</span>
+							<p class="tag__text">Gluten-Free</p>						
+						</div>
 
-				<!--Ratings-->
-				<div class="rating">
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star-half-o checked"></span>
-					<p>(4.5)</p>			
-				</div>
+						<!--Skill Level Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">heat</span>
+							<p class="tag__text">Intermediate</p>
+						</div>					
+					</div>
+				</article>
 
-				<!--Tags-->
-				<div class="tag">
-					<!--Cooking Method Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">stockpot</span>
-						<p class="tag__text">Grilling</p>						
+				<!--Spicy Coconut Curry Chicken-->
+				<article>
+					<!--Dish Image-->
+					<img src="" alt="">
+					
+					<!--Dish Description-->
+					<p class="author">Cyrus Brine</p>				
+					
+					<h4>Spicy Coconut Curry Chicken</h4>
+
+					<!--Ratings-->
+					<div class="rating">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star-half-o checked"></span>
+						<p>(4.6)</p>			
 					</div>
 
-					<!--Dietary Preference Tag-->
+					<!--Tags-->
 					<div class="tag">
-						<span class="material-symbols-outlined">allergies</span>
-						<p class="tag__text">Gluten-Free</p>						
+						<!--Cooking Method Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">stockpot</span>
+							<p class="tag__text">Stovetop</p>						
+						</div>
+
+						<!--Dietary Preference Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">allergies</span>
+							<p class="tag__text">Gluten-Free</p>						
+						</div>
+
+						<!--Skill Level Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">heat</span>
+							<p class="tag__text">Intermediate</p>
+						</div>					
+					</div>
+				</article>
+
+				<!--Garlic Butter Shrimp Pasta-->
+				<article>
+					<!--Dish Image-->
+					<img src="" alt="">
+					
+					<!--Dish Description-->
+					<p class="author">Tessa Ember</p>				
+					
+					<h4>Garlic Butter Shrimp Pasta</h4>
+
+					<!--Ratings-->
+					<div class="rating">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<p>(4.8)</p>			
 					</div>
 
-					<!--Skill Level Tag-->
+					<!--Tags-->
 					<div class="tag">
-						<span class="material-symbols-outlined">heat</span>
-						<p class="tag__text">Intermediate</p>
-					</div>					
-				</div>
-			</article>
+						<!--Cooking Method Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">stockpot</span>
+							<p class="tag__text">Stovetop</p>						
+						</div>
 
-			<!--Spicy Coconut Curry Chicken-->
-			<article>
-				<!--Dish Image-->
-				<img src="" alt="">
-				
-				<!--Dish Description-->
-				<p class="author">Cyrus Brine</p>				
-				
-				<h4>Spicy Coconut Curry Chicken</h4>
+						<!--Dietary Preference Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">allergies</span>
+							<p class="tag__text">Pescatarian</p>						
+						</div>
 
-				<!--Ratings-->
-				<div class="rating">
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star-half-o checked"></span>
-					<p>(4.6)</p>			
-				</div>
+						<!--Skill Level Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">heat</span>
+							<p class="tag__text">Easy</p>
+						</div>					
+					</div>
+				</article>
 
-				<!--Tags-->
-				<div class="tag">
-					<!--Cooking Method Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">stockpot</span>
-						<p class="tag__text">Stovetop</p>						
+
+				<!--Roasted Maple Dijon Brussels-->
+				<article>
+					<!--Dish Image-->
+					<img src="" alt="">
+					
+					<!--Dish Description-->
+					<p class="author">Oren Basil</p>				
+					
+					<h4>Roasted Maple Dijon Brussels</h4>
+
+					<!--Ratings-->
+					<div class="rating">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<p>(4.2)</p>			
 					</div>
 
-					<!--Dietary Preference Tag-->
+					<!--Tags-->
 					<div class="tag">
-						<span class="material-symbols-outlined">allergies</span>
-						<p class="tag__text">Gluten-Free</p>						
+						<!--Cooking Method Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">stockpot</span>
+							<p class="tag__text">Roasting</p>						
+						</div>
+
+						<!--Dietary Preference Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">allergies</span>
+							<p class="tag__text">Vegan</p>						
+						</div>
+
+						<!--Skill Level Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">heat</span>
+							<p class="tag__text">Easy</p>
+						</div>					
+					</div>
+				</article>
+
+
+				<!--Chipotle Black Bean Bowl-->
+				<article>
+					<!--Dish Image-->
+					<img src="" alt="">
+					
+					<!--Dish Description-->
+					<p class="author">Violet Crust</p>				
+					
+					<h4>Chipotle Black Bean Bowl</h4>
+
+					<!--Ratings-->
+					<div class="rating">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star-half-o checked"></span>
+						<p>(4.4)</p>			
 					</div>
 
-					<!--Skill Level Tag-->
+					<!--Tags-->
 					<div class="tag">
-						<span class="material-symbols-outlined">heat</span>
-						<p class="tag__text">Intermediate</p>
-					</div>					
-				</div>
-			</article>
+						<!--Cooking Method Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">stockpot</span>
+							<p class="tag__text">Stovetop</p>						
+						</div>
 
-			<!--Garlic Butter Shrimp Pasta-->
-			<article>
-				<!--Dish Image-->
-				<img src="" alt="">
-				
-				<!--Dish Description-->
-				<p class="author">Tessa Ember</p>				
-				
-				<h4>Garlic Butter Shrimp Pasta</h4>
+						<!--Dietary Preference Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">allergies</span>
+							<p class="tag__text">Vegan</p>						
+						</div>
 
-				<!--Ratings-->
-				<div class="rating">
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<p>(4.8)</p>			
-				</div>
+						<!--Skill Level Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">heat</span>
+							<p class="tag__text">Easy</p>
+						</div>					
+					</div>
+				</article>
 
-				<!--Tags-->
-				<div class="tag">
-					<!--Cooking Method Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">stockpot</span>
-						<p class="tag__text">Stovetop</p>						
+				<!--Balsamic Mushroom Pizza-->
+				<article>
+					<!--Dish Image-->
+					<img src="" alt="">
+					
+					<!--Dish Description-->
+					<p class="author">Nico Sizzle</p>				
+					
+					<h4>Balsamic Mushroom Pizza</h4>
+
+					<!--Ratings-->
+					<div class="rating">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star-half-o checked"></span>
+						<p>(4.5)</p>			
 					</div>
 
-					<!--Dietary Preference Tag-->
+					<!--Tags-->
 					<div class="tag">
-						<span class="material-symbols-outlined">allergies</span>
-						<p class="tag__text">Pescatarian</p>						
+						<!--Cooking Method Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">stockpot</span>
+							<p class="tag__text">Baking</p>						
+						</div>
+
+						<!--Dietary Preference Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">allergies</span>
+							<p class="tag__text">Vegetarian</p>						
+						</div>
+
+						<!--Skill Level Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">heat</span>
+							<p class="tag__text">Intermediate</p>
+						</div>					
+					</div>
+				</article>
+
+				<!--Lemon Garlic Asparagus-->
+				<article>
+					<!--Dish Image-->
+					<img src="" alt="">
+					
+					<!--Dish Description-->
+					<p class="author">Seraphina “Sera” Soufflé</p>				
+					
+					<h4>Lemon Garlic Asparagus</h4>
+
+					<!--Ratings-->
+					<div class="rating">
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star checked"></span>
+						<span class="fa fa-star"></span>
+						<p>(4.1)</p>			
 					</div>
 
-					<!--Skill Level Tag-->
+					<!--Tags-->
 					<div class="tag">
-						<span class="material-symbols-outlined">heat</span>
-						<p class="tag__text">Easy</p>
-					</div>					
-				</div>
-			</article>
+						<!--Cooking Method Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">stockpot</span>
+							<p class="tag__text">Sautéing</p>						
+						</div>
 
+						<!--Dietary Preference Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">allergies</span>
+							<p class="tag__text">Vegan</p>						
+						</div>
 
-			<!--Roasted Maple Dijon Brussels-->
-			<article>
-				<!--Dish Image-->
-				<img src="" alt="">
-				
-				<!--Dish Description-->
-				<p class="author">Oren Basil</p>				
-				
-				<h4>Roasted Maple Dijon Brussels</h4>
-
-				<!--Ratings-->
-				<div class="rating">
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<p>(4.2)</p>			
-				</div>
-
-				<!--Tags-->
-				<div class="tag">
-					<!--Cooking Method Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">stockpot</span>
-						<p class="tag__text">Roasting</p>						
+						<!--Skill Level Tag-->
+						<div class="tag">
+							<span class="material-symbols-outlined">heat</span>
+							<p class="tag__text">Easy</p>
+						</div>					
 					</div>
-
-					<!--Dietary Preference Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">allergies</span>
-						<p class="tag__text">Vegan</p>						
-					</div>
-
-					<!--Skill Level Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">heat</span>
-						<p class="tag__text">Easy</p>
-					</div>					
-				</div>
-			</article>
-
-
-			<!--Chipotle Black Bean Bowl-->
-			<article>
-				<!--Dish Image-->
-				<img src="" alt="">
-				
-				<!--Dish Description-->
-				<p class="author">Violet Crust</p>				
-				
-				<h4>Chipotle Black Bean Bowl</h4>
-
-				<!--Ratings-->
-				<div class="rating">
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star-half-o checked"></span>
-					<p>(4.4)</p>			
-				</div>
-
-				<!--Tags-->
-				<div class="tag">
-					<!--Cooking Method Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">stockpot</span>
-						<p class="tag__text">Stovetop</p>						
-					</div>
-
-					<!--Dietary Preference Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">allergies</span>
-						<p class="tag__text">Vegan</p>						
-					</div>
-
-					<!--Skill Level Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">heat</span>
-						<p class="tag__text">Easy</p>
-					</div>					
-				</div>
-			</article>
-
-			<!--Balsamic Mushroom Pizza-->
-			<article>
-				<!--Dish Image-->
-				<img src="" alt="">
-				
-				<!--Dish Description-->
-				<p class="author">Nico Sizzle</p>				
-				
-				<h4>Balsamic Mushroom Pizza</h4>
-
-				<!--Ratings-->
-				<div class="rating">
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star-half-o checked"></span>
-					<p>(4.5)</p>			
-				</div>
-
-				<!--Tags-->
-				<div class="tag">
-					<!--Cooking Method Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">stockpot</span>
-						<p class="tag__text">Baking</p>						
-					</div>
-
-					<!--Dietary Preference Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">allergies</span>
-						<p class="tag__text">Vegetarian</p>						
-					</div>
-
-					<!--Skill Level Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">heat</span>
-						<p class="tag__text">Intermediate</p>
-					</div>					
-				</div>
-			</article>
-
-			<!--Lemon Garlic Asparagus-->
-			<article>
-				<!--Dish Image-->
-				<img src="" alt="">
-				
-				<!--Dish Description-->
-				<p class="author">Seraphina “Sera” Soufflé</p>				
-				
-				<h4>Lemon Garlic Asparagus</h4>
-
-				<!--Ratings-->
-				<div class="rating">
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star checked"></span>
-					<span class="fa fa-star"></span>
-					<p>(4.1)</p>			
-				</div>
-
-				<!--Tags-->
-				<div class="tag">
-					<!--Cooking Method Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">stockpot</span>
-						<p class="tag__text">Sautéing</p>						
-					</div>
-
-					<!--Dietary Preference Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">allergies</span>
-						<p class="tag__text">Vegan</p>						
-					</div>
-
-					<!--Skill Level Tag-->
-					<div class="tag">
-						<span class="material-symbols-outlined">heat</span>
-						<p class="tag__text">Easy</p>
-					</div>					
-				</div>
-			</article>
-		</section>
+				</article>
+			</section>
+		</div>	
 	</body>
 </html>
