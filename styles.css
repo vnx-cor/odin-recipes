@@ -198,6 +198,18 @@ body {
 	max-width: 100%;
 	height: 40vh;
 	border-radius: 20px;
+	align-content: center;
+}
+
+.hero__text {
+	position: relative;
+	left: 2.2rem;
+	bottom: 2.2rem;
+	width: 600px;
+	color: white;
+	font-weight: 350;
+	font-size: 1.9rem;
+	line-height: 1.25;
 }
 
 /*Categories Section*/
