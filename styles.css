@@ -247,6 +247,11 @@ body {
 	grid-area: 6 / 1 / 9 / 6;
 }
 
+.categories__header {
+	font-size: 1.3rem;
+	font-weight: 700;
+}
+
 /*Recommendation Section*/
 .section__recommendation {
 	grid-area: 9 / 1 / 13 / 6;
