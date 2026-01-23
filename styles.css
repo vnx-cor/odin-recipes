@@ -40,7 +40,10 @@ body {
 }
 
 .nav__logo {
-	width: 12rem;
+	position: relative;
+	top: 0.65rem;
+	left: 1.5rem;
+	width: 13rem;
 	height: auto;
 	shape-rendering: crispEdges;
 }
