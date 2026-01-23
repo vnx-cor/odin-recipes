@@ -157,6 +157,7 @@ body {
 
 /*Hero Section*/
 .hero__container {
+	grid-area: 1 / 1 / 6 / 6;
 	background-image:
 		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
 		url('./images/homepage-body/hero-section-bg.jpg');
@@ -164,4 +165,14 @@ body {
 	background-repeat: no-repeat;
 	max-width: 700px;
 	height: 400px;
+}
+
+/*Categories Section*/
+.section__categories {
+	grid-area: 6 / 1 / 9 / 6;
+}
+
+/*Recommendation Section*/
+.section__recommendation {
+	grid-area: 9 / 1 / 13 / 6;
 }
