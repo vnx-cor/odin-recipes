@@ -12,6 +12,8 @@
 }
 
 body {
+	/*All text content in the homepage is set to Inter*/
+	font-family: var(--font-header);
 	background-color: #F5F7FA;
 	width: 100%;
 	height: auto;
