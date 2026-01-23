@@ -113,8 +113,8 @@ body {
 	width: 250px;
 	height: 100vh;
 	position: fixed;
-	top: 4.1rem;
-	padding-top: 2rem;
+	top: 3.5rem;
+	padding-top: 2.5rem;
 }
 
 .sidebar__container {
@@ -145,7 +145,7 @@ body {
 
 /*Body Content Container*/
 .body__content {
-	grid-area: 2 / 2 / 9 / 5;	
+	grid-area: 2 / 2 / 9 / 5;
 }
 
 /*Hero Section*/
