@@ -212,6 +212,17 @@ body {
 	line-height: 1.25;
 }
 
+.hero__button {
+	position: relative;
+	top: 2rem;
+	left: 2.2rem;
+	padding: 5px 12px;
+	border: 1px solid white;
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, 0.25);
+	backdrop-filter: blur(10px);
+}
+
 /*Categories Section*/
 .section__categories {
 	grid-area: 6 / 1 / 9 / 6;
