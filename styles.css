@@ -147,12 +147,18 @@ body {
 
 /*Body Content Container*/
 .body__content {
+	position: relative;
+	bottom: 0.5rem;
+	width: 80vw;
+	max-height: 100vh;
+	overflow-y: auto;
 	grid-area: 2 / 2 / 9 / 7;
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	grid-template-rows: repeat(12, 1fr);
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
+	padding-left: 1rem;  
 }
 
 /*Hero Section*/
