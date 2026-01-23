@@ -184,6 +184,9 @@ body {
 	padding-left: 1rem;  
 }
 
+/*Remove scrollbar display*/
+.body__content::-webkit-scrollbar { display: none; }
+
 /*Hero Section*/
 .hero__container {
 	grid-area: 1 / 1 / 6 / 6;
