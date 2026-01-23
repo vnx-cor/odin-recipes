@@ -245,11 +245,14 @@ body {
 /*Categories Section*/
 .section__categories {
 	grid-area: 6 / 1 / 9 / 6;
+	padding: 1px;
+	margin-top: 1.3rem;
 }
 
 .categories__header {
 	font-size: 1.3rem;
 	font-weight: 700;
+	padding-bottom: 0.7rem;
 }
 
 /*Recommendation Section*/
