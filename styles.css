@@ -76,17 +76,20 @@ body {
 
 /*Container for User Activity & User Profile*/
 .container__activity-profile {
+	margin-right: 2.5rem;
 	display: flex;
 	justify-content: space-around;
-	width: 500px;
+	width: 280px;
+	align-items: center;
 }
 
 /*User Activity*/
 .user-activity__div {
 	display: flex;
 	justify-content: space-between;
-	width: 85px;
+	width: 80px;
 	height: 32px;
+	margin-right: auto;
 }
 
 .activity__div {
@@ -100,19 +103,30 @@ body {
 }
 
 .activity__icon {
-	color: black; 
+	color: #6f7173; 
 	font-size: 1.7rem !important;
+	border: 2px solid rgba(162, 165, 168, 0.1);
+	border-radius: 50%;
+	padding: 0.35rem;
 }
 
 /*User Profile*/
 .nav__profile {
+	width: 170px;
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .profile__image {
-	width: 3rem;
-	height: 3rem;
+	width: 2.7rem;
+	height: 2.7rem;
 	border-radius: 50%;
+}
+
+.profile__name {
+	margin-left: 0.7rem;
+	margin-right: auto;
 }
 
 /*Navigation Sidebar*/
