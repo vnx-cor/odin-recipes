@@ -1,6 +1,10 @@
 :root {
+	/*Font Stylings*/
 	--font-header: Inter, Helvetica, sans-serif; /*Would also be used for links*/
 	--font-body: "Roboto", sans-serif;
+
+	/*Color System*/
+	--black-shade: rgba(0, 0, 0, 0.4); 	     /*Used for background images*/
 }
 
 *, 
@@ -255,12 +259,18 @@ body {
 	padding-bottom: 0.7rem;
 }
 
+.category-card__container {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
 .category__card {
 	background-size: cover;
 	border: none;
-	border-radius: 9px;
-	width: 195px;
-	height: 65px;
+	border-radius: 14px;
+	width: 200px;
+	height: 70px;
 }
 
 .category__text {
@@ -271,37 +281,37 @@ body {
 /*Category Card per Dish*/
 .category__card--soup {
 	background-image:
-		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		linear-gradient(var(--black-shade), var(--black-shade)),
 		url('./images/category/category-soup.png');
 }
 
 .category__card--meal {
 	background-image:
-		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		linear-gradient(var(--black-shade), var(--black-shade)),
 		url('./images/category/category-meal.webp');
 }
 
 .category__card--dessert {
 	background-image:
-		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		linear-gradient(var(--black-shade), var(--black-shade)),
 		url('./images/category/category-dessert.jpeg');
 }
 
 .category__card--cuisine {
 	background-image:
-		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		linear-gradient(var(--black-shade), var(--black-shade)),
 		url('./images/category/category-cuisine.webp');
 }
 
 .category__card--snacks {
 	background-image:
-		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		linear-gradient(var(--black-shade), var(--black-shade)),
 		url('./images/category/category-snacks.jpg');
 }
 
 .category__card--beverages {
 	background-image:
-		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		linear-gradient(var(--black-shade), var(--black-shade)),
 		url('./images/category/category-beverages.jpg');
 }
 
