@@ -255,6 +255,56 @@ body {
 	padding-bottom: 0.7rem;
 }
 
+.category__card {
+	background-size: cover;
+	border: none;
+	border-radius: 9px;
+	width: 130px;
+	height: 50px;
+}
+
+.category__text {
+	font-weight: 500;
+	color: white;
+}
+
+/*Category Card per Dish*/
+.category__card--soup {
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('./images/category/category-soup.png');
+}
+
+.category__card--meal {
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('./images/category/category-meal.webp');
+}
+
+.category__card--dessert {
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('./images/category/category-dessert.jpeg');
+}
+
+.category__card--cuisine {
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('./images/category/category-cuisine.webp');
+}
+
+.category__card--snacks {
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('./images/category/category-snacks.jpg');
+}
+
+.category__card--beverages {
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('./images/category/category-beverages.jpg');
+}
+
 /*Recommendation Section*/
 .section__recommendation {
 	grid-area: 9 / 1 / 13 / 6;
