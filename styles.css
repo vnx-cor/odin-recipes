@@ -180,11 +180,6 @@ body {
 	max-height: 100vh;
 	overflow-y: auto;
 	grid-area: 2 / 2 / 9 / 7;
-	display: grid;
-	grid-template-columns: repeat(5, 1fr);
-	grid-template-rows: repeat(12, 1fr);
-	grid-column-gap: 0px;
-	grid-row-gap: 0px;
 	padding-left: 1rem;  
 }
 
@@ -193,7 +188,6 @@ body {
 
 /*Hero Section*/
 .hero__container {
-	grid-area: 1 / 1 / 6 / 6;
 	background-image:
 		linear-gradient(0.25turn, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.01)), 
 		url('./images/homepage-body/hero-section-bg.jpg');
@@ -248,7 +242,6 @@ body {
 
 /*Categories Section*/
 .section__categories {
-	grid-area: 6 / 1 / 9 / 6;
 	padding: 1px;
 	margin-top: 1.3rem;
 }
@@ -317,10 +310,6 @@ body {
 }
 
 /*Recommendation Section*/
-.section__recommendation {
-	grid-area: 9 / 1 / 13 / 6;
-}
-
 .recommendation__header {
 	font-size: 1.3rem;
 }
