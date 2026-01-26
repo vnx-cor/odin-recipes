@@ -327,7 +327,7 @@ body {
 }
 
 .recommendation__dish {
-	width: 350px;
+	width: 375px;
 	height: 160px;
 	object-fit: cover;
 }
