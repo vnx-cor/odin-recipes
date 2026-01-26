@@ -320,3 +320,7 @@ body {
 .section__recommendation {
 	grid-area: 9 / 1 / 13 / 6;
 }
+
+.recommendation__header {
+	font-size: 1.3rem;
+}
