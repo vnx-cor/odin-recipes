@@ -310,6 +310,10 @@ body {
 }
 
 /*Recommendation Section*/
+.section__recommendation {
+	padding-top: 1.3rem;
+}
+
 .recommendation__header {
 	font-size: 1.3rem;
 }
