@@ -316,6 +316,7 @@ body {
 
 .recommendation__container {
 	display: flex;
+	justify-content: space-around;
 	width: 100%;
 	height: auto;
 	flex-wrap: wrap;
