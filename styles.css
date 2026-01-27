@@ -348,3 +348,8 @@ body {
 	letter-spacing: 0.2px;
 	color: rgba(130, 130, 130, 0.9);
 }
+
+.dish__name {
+	letter-spacing: -0.1px;
+	margin: 2px 0 7.5px;
+}
