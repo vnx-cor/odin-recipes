@@ -353,3 +353,20 @@ body {
 	letter-spacing: -0.1px;
 	margin: 2px 0 7.5px;
 }
+
+.dish__rating {
+	display: flex;
+	align-items: center;
+}
+
+.rating__icon {
+	color: rgb(244, 250, 80);
+	padding-right: 3px;
+}
+
+.rating__scale {
+	font-size: 0.95rem;
+	font-weight: 550;
+	margin-left: 2px;
+	color: rgba(130, 130, 130, 0.9);
+}
