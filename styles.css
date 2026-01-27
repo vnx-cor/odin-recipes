@@ -323,8 +323,9 @@ body {
 }
 
 .dish__container {
+	width: 390px;
 	background-color: #FFFFFF;
-	border-radius: 14px;
+	border-radius: 14px;	
 }
 
 .recommendation__header {
@@ -332,7 +333,7 @@ body {
 }
 
 .recommendation__dish {
-	width: 375px;
+	width: 95%;
 	height: 160px;
 	object-fit: cover;
 	border-radius: 14px;
