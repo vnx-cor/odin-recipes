@@ -339,7 +339,7 @@ body {
 	height: 160px;
 	object-fit: cover;
 	border-radius: 10px;
-	margin: auto;
+	margin: 10px auto 8px;
 }
 
 .dish__author {
