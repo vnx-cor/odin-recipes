@@ -325,7 +325,8 @@ body {
 .dish__container {
 	width: 390px;
 	background-color: #FFFFFF;
-	border-radius: 14px;	
+	border-radius: 14px;
+	padding: 1px;
 }
 
 .recommendation__header {
@@ -333,10 +334,12 @@ body {
 }
 
 .recommendation__dish {
+	display: block;
 	width: 95%;
 	height: 160px;
 	object-fit: cover;
-	border-radius: 14px;
+	border-radius: 10px;
+	margin: auto;
 }
 
 .dish__author {
