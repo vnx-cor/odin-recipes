@@ -322,6 +322,10 @@ body {
 	flex-wrap: wrap;
 }
 
+.dish__container {
+	background-color: #FFFFFF;
+}
+
 .recommendation__header {
 	font-size: 1.3rem;
 }
