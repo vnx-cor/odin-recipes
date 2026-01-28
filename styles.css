@@ -344,9 +344,9 @@ body {
 
 .dish__author {
 	font-size: 0.8rem;
-	font-weight: 600;
+	font-weight: 580;
 	letter-spacing: 0.2px;
-	color: rgba(130, 130, 130, 0.9);
+	color: rgba(100, 100, 100, 0.9);
 }
 
 .dish__name {
