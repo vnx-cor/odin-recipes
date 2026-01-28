@@ -360,9 +360,10 @@ body {
 }
 
 .rating__icon {
-	color: rgb(244, 250, 80);
 	padding-right: 3px;
 }
+
+.checked { color: rgb(205, 127, 50); }
 
 .rating__scale {
 	font-size: 0.95rem;
