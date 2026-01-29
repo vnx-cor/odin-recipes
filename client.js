@@ -5,7 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
 	const anchor = document.querySelectorAll(".sidebar__anchor");
 
 	// Trigger function when sidebar container is hovered
-	container.addEventListener("mouseenter", function() {
-
+	container.forEach(element => {
+		element.addEventListener("mouseenter", () => {
+			// Change CSS style when hovered
+			element.style.backgroundColor = "#5a4e43";
+		});
 	});
 });
