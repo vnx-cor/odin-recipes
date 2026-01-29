@@ -6,12 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	container.forEach(element => {
 		element.addEventListener("mouseenter", () => {
 			// Change CSS style when hovered
-			element.style.backgroundColor = "rgba(122, 79, 42, 0.5)";
+			element.style.backgroundColor = "rgba(120, 70, 30, 0.1)";
 			element.children[0].style.color = "rgb(61, 38, 14)"; // Icon
 
 			// Anchor
 			element.children[1].style.color = "rgb(61, 38, 14)";
-			element.children[1].style.fontWeight = "700";
+			element.children[1].style.fontWeight = "600";
 		});
 
 		element.addEventListener("mouseleave", () => {
