@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 	// Target elements for hover
 	const container = document.querySelectorAll(".sidebar__container");
-	const icon = container.children[0];
-	const anchor = container.children[1];
 
 	// Trigger function when sidebar container is hovered
 	container.forEach(element => {
