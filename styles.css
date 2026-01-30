@@ -362,6 +362,10 @@ body {
 	align-items: center;
 }
 
+.dish__tags-container {
+	display: flex;
+}
+
 .rating__icon {
 	padding-right: 3px;
 }
