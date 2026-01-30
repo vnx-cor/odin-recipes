@@ -155,6 +155,7 @@ body {
 	margin-left: 1.1rem;
 	padding-left: 1.3rem; 
 	align-items: center;
+	border-radius: 3px;
 }
 
 .sidebar__icon {
