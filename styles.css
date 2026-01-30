@@ -366,6 +366,10 @@ body {
 	display: flex;
 }
 
+.dish__tag {
+	display: flex;
+}
+
 .rating__icon {
 	padding-right: 3px;
 }
