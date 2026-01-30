@@ -148,10 +148,12 @@ body {
 
 .sidebar__container {
 	display: flex;
-	width: 160px;
+	width: 86%;
+	height: 3.25rem;
 	padding: 0.2rem;
 	margin-bottom: 2rem;
-	margin-left: 1.5rem; 
+	margin-left: 1.1rem;
+	padding-left: 1.3rem; 
 	align-items: center;
 }
 
