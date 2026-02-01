@@ -325,13 +325,6 @@ body {
 	flex-wrap: wrap;
 }
 
-.dish__container {
-	width: 390px;
-	background-color: #FFFFFF;
-	border-radius: 14px;
-	padding: 1px;
-}
-
 .recommendation__header {
 	font-size: 1.3rem;
 }
@@ -345,6 +338,15 @@ body {
 	margin: 10px auto 8px;
 }
 
+/*Dish Container (Card)*/
+.dish__container {
+	width: 390px;
+	background-color: #FFFFFF;
+	border-radius: 14px;
+	padding: 1px;
+}
+
+/*Dish Description*/
 .dish__author {
 	font-size: 0.8rem;
 	font-weight: 580;
@@ -357,11 +359,25 @@ body {
 	margin: 2px 0 7.5px;
 }
 
+/*Dish Ratings*/
 .dish__rating {
 	display: flex;
 	align-items: center;
 }
 
+.rating__icon { padding-right: 3px; }
+
+.checked { color: rgb(205, 127, 50); }
+
+.rating__scale {
+	font-size: 0.95rem;
+	font-weight: 550;
+	margin-left: 2px;
+	color: rgb(130, 130, 130);
+}
+
+
+/*Dish Tags*/
 .dish__tags-container {
 	display: flex;
 }
@@ -373,17 +389,4 @@ body {
 
 .dish-tag__text {
 	font-size: 0.9rem;
-}
-
-.rating__icon {
-	padding-right: 3px;
-}
-
-.checked { color: rgb(205, 127, 50); }
-
-.rating__scale {
-	font-size: 0.95rem;
-	font-weight: 550;
-	margin-left: 2px;
-	color: rgb(130, 130, 130);
 }
