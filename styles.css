@@ -393,3 +393,7 @@ body {
 .dish-tag__text {
 	font-size: 0.9rem;
 }
+
+.dish-tag__icon {
+	font-size: 1rem !important;
+}
