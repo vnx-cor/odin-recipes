@@ -347,6 +347,11 @@ body {
 }
 
 /*Dish Description*/
+.dish__description {
+	margin-left: 0.7rem;
+	margin-bottom: 0.5rem;
+}
+
 .dish__author {
 	font-size: 0.8rem;
 	font-weight: 580;
