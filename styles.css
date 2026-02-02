@@ -386,6 +386,8 @@ body {
 /*Dish Tags*/
 .dish__tags-container {
 	display: flex;
+	margin-top: 0.6rem;
+	margin-bottom: 1rem;
 }
 
 .dish__tag {
