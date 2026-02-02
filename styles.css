@@ -339,6 +339,11 @@ body {
 }
 
 /*Dish Container (Card)*/
+.dish__anchor {
+	text-decoration: none;
+	color: black;
+}
+
 .dish__container {
 	width: 390px;
 	background-color: #FFFFFF;
