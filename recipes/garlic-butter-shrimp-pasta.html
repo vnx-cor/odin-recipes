@@ -1,1 +1,188 @@
-<!-- garlic-butter-shrimp-pasta -->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Recipe | Garlic Butter Shrimp Pasta</title>
+
+		<!--CSS link-->
+		<link rel="stylesheet" href="./styles.css">
+
+		<!--Google Fonts Link-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Stack+Sans+Notch:wght@200..700&display=swap" rel="stylesheet">
+
+		<!--Google Icons Link-->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+		
+		<!--Icon Library link from Font Awesome-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<!--JavaScript File Source-->
+		<script src="./client.js" defer></script>
+	</head>
+	<body>
+		<!--Homepage Container (Grid)-->
+		<div class="homepage__div">
+			<!--Navigation Header-->
+			<nav class="nav__header">
+				<a class="dish__anchor" href="#"><img class="nav__logo" src="./images/logo/odin-recipe-logo-2.svg" alt="Odin Recipe's Logo"></a>
+				
+				<!--Search Bar-->
+				<div class="nav__search-bar">
+					<input type="text" class="search-bar__input-text">
+					<span class="material-symbols-outlined search-bar__icon">search</span>
+				</div>
+
+				<!--Container for User Activity & User Profile-->
+				<div class="container__activity-profile">	
+					<!--User Activity-->
+					<div class="user-activity__div">
+						<div class="activity__div">
+							<span class="material-symbols-outlined activity__icon">inbox</span>
+						</div>
+
+						<div class="activity__div">
+							<span class="material-symbols-outlined activity__icon">notifications</span>
+						</div>		
+					</div>
+					
+					<!--User Profile-->
+					<div class="nav__profile">
+						<img class="profile__image" src="./images/navigation-header/user-profile-picture.webp" alt="Your profile picture">
+						<p class="profile__name">Chef Odin</p>
+						<span class="material-symbols-outlined profile__icon">arrow_drop_down</span>
+					</div>
+				</div>
+			</nav>
+			
+			<!--Navigation Sidebar-->
+			<nav class="nav__sidebar">
+				<!--Sidebar Anchors-->
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon sidebar__icon--large">home</span>
+					<a class="dish__anchor" href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Home</a>
+				</div>
+
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon">category</span>
+					<a class="dish__anchor" href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Category</a>
+				</div>
+
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon">equalizer</span>
+					<a class="dish__anchor" href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">My status</a>
+				</div>
+
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon">browse_activity</span>
+					<a class="dish__anchor" href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Activity log</a>
+				</div>
+
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon">add_box</span>
+					<a class="dish__anchor" href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Create</a>
+				</div>
+
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon">account_circle</span>
+					<a class="dish__anchor" href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Profile</a>
+				</div>
+
+				<div class="sidebar__container">
+					<span class="material-symbols-outlined sidebar__icon">settings</span>
+					<a class="dish__anchor" href="#" class="sidebar__anchor" target="_blank" rel="noreferrer noopener">Settings</a>
+				</div>
+			</nav>
+
+			<!--Body Content-->
+			<div class="body__content">
+				<!--Dish Title (Name)-->
+				<h1 class="recipe-dish__title"></h1>
+				
+				<!--Dish Image-->
+				<img class="recipe-dish__image" src="" alt="">
+
+				<!--Dish Details-->
+				<div class="recipe-dish__details">
+					<!--Dish Author and Date Posted-->
+					<p class="recipe-dish__author-date"></p>
+
+					<!--Dish Tags (Cooking Method, Dietary Preference, Skill Level)-->
+					<div class="recipe-dish__tags">
+						<div class="recipe-dish__tag"></div>
+					</div>
+				</div>
+
+				<!--Dish Summary (Chef's Note)-->
+				<blockquote class="recipe-dish__summary" cite=""></blockquote> 
+
+				<!--Dish Ingredients-->
+				<div class="recipe-dish__ingredients-container">
+					<!--Ingredients Header-->
+					<h3 class="ingredients__header"></h3>
+
+					<!--Ingredients Unordered List-->
+					<ul class="recipe-dish__ingredients">
+						<li class="recipe-dish__ingredient"></li>
+					</ul>
+				</div>
+
+				<!--Dish Instructions (Step by step)-->
+				<div class="recipe-dish__instructions-container">
+					<!--Instructions Header-->
+					<h3 class="instructins__header"></h3>
+
+					<!--Instructions Ordered List-->
+					<ol class="recipe-dish__instructions">
+						<li class="recipe-dish__instruction"></li>
+					</ol>
+				</div>
+
+				<hr>
+
+				<!--Comment Section-->
+				<div class="comment__section">
+					<!--Comment Input for Current User-->
+					<div class="comment__section-user">
+						<!--User Profile Image-->
+						<img class="comment_avatar" src="" alt="User profile picture">
+
+						<!--Comment Input-->
+						<textarea class="comment__input"></textarea>
+					</div>
+
+					<hr>
+
+					<!--Comments from other Users-->
+					<div class="comment__section-others">
+						<!--Other Users Comment Container-->
+						<div class="comment__section-other">
+							<!--Other User's Profile Image-->
+							<img class="commment_avatar" src="" alt="Other user's profile picture">
+
+							<!--Other User's Name-->
+							<p class="comment__avatar"></p>
+
+							<!--Comment's Timestamp-->
+							<time class="comment__timestamp" datetime=""></time>
+
+							<!--Comment Text Content-->
+							<p class="comment__text"></p>
+						</div>
+
+					</div>
+					<!--End of Other User's Comment Container-->
+					
+				</div>
+				<!--End of Recipe Contents-->
+
+			</div>
+			<!--End of Body Content-->
+
+		</div>	
+		<!--End of Homepage Container (Grid)-->
+
+	</body>
+</html>
