@@ -1,11 +1,21 @@
-:root {
-	/*Font Stylings*/
-	--font-header: Inter, Helvetica, sans-serif; /*Would also be used for links*/
-	--font-body: "Roboto", sans-serif;
+/* =====================================================
+   CONTENT INDEX
+   =====================================================
 
-	/*Color System*/
-	--black-shade: rgba(0, 0, 0, 0.4); 	     /*Used for background images*/
-}
+   1. CSS Reset / Normalize
+   2. Root Variables (Colors, Fonts, Spacing)
+   3. Base Styles (HTML, Body, Typography)
+   4. Layout, Components & Page Variants
+		4.1 Global Layout (Header, Sidebar, Body-content)
+		4.2 Home Page Stylings
+		4.3 Recipe Page Stylings
+
+   ===================================================== */
+
+
+/* =====================================================
+   1. CSS RESET / NORMALIZE
+   ===================================================== */
 
 *, 
 *::before,
@@ -15,6 +25,25 @@
 	box-sizing: border-box;
 }
 
+
+/* =====================================================
+   2. ROOT VARIABLES
+   ===================================================== */
+
+:root {
+	/*Font Stylings*/
+	--font-header: Inter, Helvetica, sans-serif; /*Would also be used for links*/
+	--font-body: "Roboto", sans-serif;
+
+	/*Color System*/
+	--black-shade: rgba(0, 0, 0, 0.4); 	     /*Used for background images*/
+}
+
+
+/* =====================================================
+   3. BASE STYLES
+   ===================================================== */
+   
 body {
 	/*All text content in the homepage is set to Inter*/
 	font-family: var(--font-header);
@@ -22,6 +51,14 @@ body {
 	width: 100%;
 	height: auto;
 }
+
+
+/* =====================================================
+   4. LAYOUT, COMPONENTS & PAGE VARIANTS
+   ===================================================== */
+
+/* 4.1 Global Layout (Header, Sidebar, Body-content)
+   ----------------------------------------------------- */
 
 /*Homepage Container*/
 .homepage__div {
@@ -188,6 +225,10 @@ body {
 
 /*Remove scrollbar display*/
 .body__content::-webkit-scrollbar { display: none; }
+
+
+/* 4.2 Home Page Stylings
+   ----------------------------------------------------- */
 
 /*Hero Section*/
 .hero__container {
@@ -416,3 +457,8 @@ body {
 	font-weight: 560 !important;
 	color: rgb(61, 38, 14);
 }
+
+
+/* 4.3 Recipe Page Stylings
+   ----------------------------------------------------- */
+
