@@ -476,7 +476,12 @@ body {
 	border-radius: 8px;
 }
 
-/*Details (Author & Tags*)/
+/*Details (Author & Tags) */
+.recipe-dish__author-date {
+	margin: 0.1rem 0 0.2rem;
+	font-size: 0.85rem;
+	color: grey;
+}
 
 /*Dish Summary (Chef's Note*/
 
