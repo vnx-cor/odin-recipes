@@ -220,7 +220,7 @@ body {
 	max-height: 100vh;
 	overflow-y: auto;
 	grid-area: 2 / 2 / 9 / 7;
-	padding-left: 1rem;  
+	padding: 1rem 0 1rem 2.5rem;
 }
 
 /*Remove scrollbar display*/
@@ -470,7 +470,7 @@ body {
 	height: 24rem;
 	object-fit: cover;
 	border-radius: 8px;
-}
+}	
 
 /*Details (Author & Tags*)/
 
