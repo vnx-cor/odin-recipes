@@ -470,7 +470,7 @@ body {
 
 /*Dish Main Image*/
 .recipe-dish__image {
-	width: 55rem;
+	width: 60.1rem;
 	height: 24rem;
 	object-fit: cover;
 	border-radius: 8px;
@@ -491,6 +491,7 @@ body {
 	border-radius: 4px;
 	font-size: 0.9rem;
 	text-align: justify;
+	margin: 1rem 0 1rem;
 }
 
 /*Ingredients*/
