@@ -484,6 +484,14 @@ body {
 }
 
 /*Dish Summary (Chef's Note*/
+.recipe-dish__summary {
+	width: 60rem;
+	border-left: 0.25rem solid rgb(34, 34, 34);
+	padding-left: 0.75rem;
+	border-radius: 4px;
+	font-size: 0.9rem;
+	text-align: justify;
+}
 
 /*Ingredients*/
 
