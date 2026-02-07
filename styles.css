@@ -463,6 +463,10 @@ body {
    ----------------------------------------------------- */
 
 /*Title (Dish Name)*/
+.recipe-dish__title {
+	margin-bottom: 0.7rem;
+	font-weight: 550;
+}
 
 /*Dish Main Image*/
 .recipe-dish__image {
@@ -470,7 +474,7 @@ body {
 	height: 24rem;
 	object-fit: cover;
 	border-radius: 8px;
-}	
+}
 
 /*Details (Author & Tags*)/
 
