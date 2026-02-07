@@ -465,6 +465,12 @@ body {
 /*Title (Dish Name)*/
 
 /*Dish Main Image*/
+.recipe-dish__image {
+	width: 55rem;
+	height: 24rem;
+	object-fit: cover;
+	border-radius: 8px;
+}
 
 /*Details (Author & Tags*)/
 
