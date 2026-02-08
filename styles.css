@@ -496,6 +496,11 @@ body {
 }
 
 /*Ingredients*/
+.ingredients__header,
+.instructions__header {
+	font-weight: 500;
+	margin-bottom: 0.25rem;
+}
 
 /*Instructions*/
 
