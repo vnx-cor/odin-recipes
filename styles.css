@@ -502,11 +502,18 @@ body {
 	margin-bottom: 0.25rem;
 }
 
-.instructions__header { margin-top: 0.8rem; }
-
 .recipe-dish__ingredients { margin-left: 2rem; }
 .recipe-dish__ingredient { margin-bottom: 0.3rem; }
 
 /*Instructions*/
+.instructions__header { margin-top: 0.8rem; }
+
+.recipe-dish__instructions { margin-left: 2rem; }
+.recipe-dish__instruction { margin-bottom: 0.05rem; }
+.recipe-dish__instruction:not(:first-child) { margin-top: 0.3rem; }
+
+.recipe-dish__instruction-descriptions { margin-left: 2rem; }
+
+.recipe-dish__instruction-ingredients { margin-left: 2rem; }
 
 /*Comment Section*/
