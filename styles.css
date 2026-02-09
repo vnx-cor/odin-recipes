@@ -502,6 +502,11 @@ body {
 	margin-bottom: 0.25rem;
 }
 
+.instructions__header { margin-top: 0.8rem; }
+
+.recipe-dish__ingredients { margin-left: 2rem; }
+.recipe-dish__ingredient { margin-bottom: 0.3rem; }
+
 /*Instructions*/
 
 /*Comment Section*/
