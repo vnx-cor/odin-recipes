@@ -516,4 +516,8 @@ body {
 
 .recipe-dish__instruction-ingredients { margin-left: 2rem; }
 
+/*Divider*/
+.section__divider { margin: 1.5rem 0; }
+.comment-section__divider { margin: 1rem 0; }
+
 /*Comment Section*/
