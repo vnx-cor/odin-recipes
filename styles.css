@@ -506,6 +506,7 @@ body {
 .recipe-dish__ingredient { margin-bottom: 0.3rem; }
 
 /*Instructions*/
+.recipe-dish__instructions-container { width: 60.1rem; }
 .instructions__header { margin-top: 0.8rem; }
 
 .recipe-dish__instructions { margin-left: 2rem; }
@@ -517,13 +518,18 @@ body {
 .recipe-dish__instruction-ingredients { margin-left: 2rem; }
 
 /*Divider*/
-.section__divider { margin: 1.5rem 0; }
+.section__divider { 
+	margin: 1.5rem 0; 
+	width: 60.1rem;
+}
 .comment-section__divider { margin: 1rem 0; }
 
 
 /*Comment Section*/
 
 /*General*/
+.comment__section { width: 60.1rem; }
+
 .comment__avatar {
 	width: 40px;
 	aspect-ratio: 1 / 1;
