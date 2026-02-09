@@ -520,4 +520,18 @@ body {
 .section__divider { margin: 1.5rem 0; }
 .comment-section__divider { margin: 1rem 0; }
 
+
 /*Comment Section*/
+
+/*General*/
+.comment__avatar {
+	width: 40px;
+	aspect-ratio: 1 / 1;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+/*User*/
+
+
+/*Others*/
