@@ -540,9 +540,13 @@ body {
 .recipe-dish__instruction:not(:first-child) { margin-top: 0.7rem; }
 
 .recipe-dish__instruction-descriptions { margin-left: 2rem; }
+.recipe-dish__instruction-description { 
+	line-height: 1.3rem; 
+	font-size: 0.9em;
+}
 
 .recipe-dish__instruction-ingredients { margin-left: 2rem; }
-.recipe-dish__instruction-ingredient { font-size: 0.875rem; }
+.recipe-dish__instruction-ingredient { font-size: 0.870rem; }
 
 /*Divider*/
 .section__divider { 
