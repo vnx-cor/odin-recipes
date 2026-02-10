@@ -527,7 +527,7 @@ body {
 
 /*Instructions*/
 .recipe-dish__instructions-container { width: 60.1rem; }
-.instructions__header { margin-top: 0.8rem; }
+.instructions__header { margin-top: 1.2rem; }
 
 .recipe-dish__instructions { margin-left: 2rem; }
 .recipe-dish__instruction { 
@@ -535,7 +535,9 @@ body {
 	font-size: 1rem;
 	font-weight: 500;
 }
-.recipe-dish__instruction:not(:first-child) { margin-top: 0.3rem; }
+
+.recipe-dish__instruction:first-child { margin-top: 0.4rem; }
+.recipe-dish__instruction:not(:first-child) { margin-top: 0.7rem; }
 
 .recipe-dish__instruction-descriptions { margin-left: 2rem; }
 
