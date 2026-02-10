@@ -464,6 +464,7 @@ body {
 
 /*Body Content (Separated from Homepage)*/
 .body-content__recipe-page {
+	font-family: var(--font-body);
 	position: relative;
 	bottom: 0.5rem;
 	width: 82vw;
