@@ -533,6 +533,7 @@ body {
 .recipe-dish__instruction { 
 	margin-bottom: 0.05rem; 
 	font-size: 1rem;
+	font-weight: 500;
 }
 .recipe-dish__instruction:not(:first-child) { margin-top: 0.3rem; }
 
