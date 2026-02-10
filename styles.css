@@ -465,6 +465,7 @@ body {
 /*Title (Dish Name)*/
 .recipe-dish__title {
 	margin-bottom: 0.7rem;
+	font-size: 2rem;
 	font-weight: 550;
 }
 
@@ -497,24 +498,32 @@ body {
 /*Ingredients*/
 .ingredients__header,
 .instructions__header {
+	font-size: 1.5rem;
 	font-weight: 500;
 	margin-bottom: 0.25rem;
 }
 
 .recipe-dish__ingredients { margin-left: 2rem; }
-.recipe-dish__ingredient { margin-bottom: 0.3rem; }
+.recipe-dish__ingredient { 
+	margin-bottom: 0.3rem; 
+	font-size: 1rem;
+}
 
 /*Instructions*/
 .recipe-dish__instructions-container { width: 60.1rem; }
 .instructions__header { margin-top: 0.8rem; }
 
 .recipe-dish__instructions { margin-left: 2rem; }
-.recipe-dish__instruction { margin-bottom: 0.05rem; }
+.recipe-dish__instruction { 
+	margin-bottom: 0.05rem; 
+	font-size: 1rem;
+}
 .recipe-dish__instruction:not(:first-child) { margin-top: 0.3rem; }
 
 .recipe-dish__instruction-descriptions { margin-left: 2rem; }
 
 .recipe-dish__instruction-ingredients { margin-left: 2rem; }
+.recipe-dish__instruction-ingredient { font-size: 0.875rem; }
 
 /*Divider*/
 .section__divider { 
