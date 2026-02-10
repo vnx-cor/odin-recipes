@@ -563,7 +563,7 @@ body {
 
 .comment__avatar {
 	width: 40px;
-	aspect-ratio: 1 / 1;
+	height: 40px;
 	border-radius: 50%;
 	object-fit: cover;
 }
