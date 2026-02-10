@@ -462,6 +462,21 @@ body {
 /* 4.3 Recipe Page Stylings
    ----------------------------------------------------- */
 
+/*Body Content (Separated from Homepage)*/
+.body-content__recipe-page {
+	position: relative;
+	bottom: 0.5rem;
+	width: 82vw;
+	max-height: 100vh;
+	overflow-y: auto;
+	grid-area: 2 / 2 / 9 / 7;
+	padding: 1rem 0 1rem 2.5rem;
+}
+
+.body-content__recipe-page::-webkit-scrollbar {
+	display: none;
+}
+
 /*Title (Dish Name)*/
 .recipe-dish__title {
 	margin-bottom: 0.7rem;
