@@ -24,4 +24,9 @@ document.addEventListener("DOMContentLoaded", () => {
 			element.children[1].style.fontWeight = "400";
 		});
 	});
+
+	// Comment Input Animation
+	const commentInputContainer = document.querySelector(".comment__section-user");
+	const btnSubmit = document.createElement("button");
+	const btnCancel = document.createElement("button");
 });
