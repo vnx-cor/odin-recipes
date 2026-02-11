@@ -37,6 +37,7 @@
 
 	/*Color System*/
 	--black-shade: rgba(0, 0, 0, 0.4); 	     /*Used for background images*/
+	--accent-color: rgba(52, 41, 31, 1);		 /*For logo and buttons (important components)*/
 }
 
 
