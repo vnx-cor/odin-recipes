@@ -581,4 +581,13 @@ body {
 	padding: 0.4rem 0.5rem;
 }
 
+.container__comment-buttons {
+	background-color: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 4rem;
+	height: 2rem;
+}
+
 /*Others*/
