@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// Comment Input Animation
 	const commentInputContainer = document.querySelector(".comment__section-user");
+	const commentInput = document.querySelector(".comment__input");
 	const btnSubmit = document.createElement("button");
 	const btnCancel = document.createElement("button");
 
