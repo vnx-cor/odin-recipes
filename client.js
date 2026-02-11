@@ -30,6 +30,10 @@ document.addEventListener("DOMContentLoaded", () => {
 	const btnSubmit = document.createElement("button");
 	const btnCancel = document.createElement("button");
 
+	// Container for the User Input Comment Buttons
+	const btnContainer = document.createElement("div");
+	btnContainer.append("btnCancel", "btnSubmit");
+
 	btnSubmit.disabled = true;
 	btnCancel.disabled = true;
 });
