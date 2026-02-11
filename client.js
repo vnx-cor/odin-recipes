@@ -40,4 +40,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	// Disable Buttons
 	btnSubmit.disabled = true;
 	btnCancel.disabled = true;
+
+	// User Comment Input (Focus) 
+	commentInputContainer.addEventListener("focus", () => { 
+		commentInputContainer.appendChild("btnContainer");
+	});
 });
