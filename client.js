@@ -45,4 +45,9 @@ document.addEventListener("DOMContentLoaded", () => {
 	commentInputContainer.addEventListener("focus", () => { 
 		commentInputContainer.appendChild("btnContainer");
 	});
+
+	// User Comment Input (Blur) 
+	commentInputContainer.addEventListener("blue", () => { 
+		commentInputContainer.remove("btnContainer");
+	});
 });
