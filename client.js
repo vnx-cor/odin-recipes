@@ -29,4 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	const commentInputContainer = document.querySelector(".comment__section-user");
 	const btnSubmit = document.createElement("button");
 	const btnCancel = document.createElement("button");
+
+	btnSubmit.disabled = true;
+	btnCancel.disabled = true;
 });
