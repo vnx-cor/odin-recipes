@@ -35,8 +35,10 @@ document.addEventListener("DOMContentLoaded", () => {
 	const btnContainer = document.createElement("div");
 	btnContainer.append("btnCancel", "btnSubmit");
 
-	// Set Container's Stylings
+	// Set Buttons and Container's Stylings
 	btnContainer.classList.add("comment-buttons__container");
+	btnSubmit.classList.add("button__submit");
+	btnCancel.classList.add("button__cancel");
 
 	// Disable Buttons
 	btnSubmit.disabled = true;
