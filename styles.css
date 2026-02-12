@@ -592,6 +592,8 @@ body {
 	justify-content: space-between;
 	width: 4rem;
 	height: 2rem;
+	margin-top: 1rem;
+	margin-left: auto;
 }
 
 .button__submit {
