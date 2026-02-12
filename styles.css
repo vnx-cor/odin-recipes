@@ -570,13 +570,16 @@ body {
 }
 
 /*User*/
-.comment__section-user { display: flex; }
+.comment__section-user { 
+	display: flex; 
+	flex-wrap: wrap;
+}
 .comment__author { margin-left: 1rem; }
 .comment__input {
 	font-family: var(--font-body);
 	border: 1.5px solid rgb(181, 181, 181);
 	border-radius: 8px;
-	flex: 1 1 auto;
+	flex: 1 1 90%;
 	resize: none;
 	margin-left: 0.6rem;
 	padding: 0.4rem 0.5rem;
