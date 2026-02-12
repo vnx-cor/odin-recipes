@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// Container for the User Input Comment Buttons
 	const btnContainer = document.createElement("div");
-	btnContainer.append("btnCancel", "btnSubmit");
+	btnContainer.append(btnCancel, btnSubmit);
 
 	// Set Buttons and Container's Stylings
 	btnContainer.classList.add("comment-buttons__container");
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// User Comment Input (Focus) 
 	commentInputContainer.addEventListener("focus", () => { 
-		commentInputContainer.appendChild("btnContainer");
+		commentInputContainer.appendChild(btnContainer);
 	});
 
 	// User Comment Input (Blur) 
