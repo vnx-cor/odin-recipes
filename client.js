@@ -45,12 +45,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	btnCancel.disabled = true;
 
 	// User Comment Input (Focus) 
-	commentInputContainer.addEventListener("focus", () => { 
+	commentInput.addEventListener("focus", () => { 
 		commentInputContainer.appendChild(btnContainer);
 	});
 
 	// User Comment Input (Blur) 
-	commentInputContainer.addEventListener("blur", () => { 
+	commentInput.addEventListener("blur", () => { 
 		commentInputContainer.remove("btnContainer");
 	});
 
