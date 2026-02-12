@@ -40,6 +40,10 @@ document.addEventListener("DOMContentLoaded", () => {
 	btnSubmit.classList.add("button__submit");
 	btnCancel.classList.add("button__cancel");
 
+	// Set Text Content to User Input Comment
+	btnSubmit.textContent = "Submit";
+	btnCancel.textContent = "Cancel";
+
 	// Disable Buttons
 	btnSubmit.disabled = true;
 	btnCancel.disabled = true;
