@@ -591,4 +591,14 @@ body {
 	height: 2rem;
 }
 
+.button__submit {
+	background-color: var(--accent-color);
+	color: white;
+}
+
+.button__cancel {
+	background-color: #6f7173;
+	color: rgb(188, 188, 188);
+}
+
 /*Others*/
