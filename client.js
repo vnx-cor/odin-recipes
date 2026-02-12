@@ -51,4 +51,10 @@ document.addEventListener("DOMContentLoaded", () => {
 	commentInputContainer.addEventListener("blue", () => { 
 		commentInputContainer.remove("btnContainer");
 	});
+
+	// User Comment Input (User Adds Comment)
+	commentInput.addEventListener("input", () => {
+		btnSubmit.disabled = commentInput.value.trim() === "";
+		btnCancel.disabled = commentInput.value.trim() === "";
+	});
 });
