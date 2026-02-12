@@ -582,7 +582,7 @@ body {
 	padding: 0.4rem 0.5rem;
 }
 
-.container__comment-buttons {
+.comment-buttons__container {
 	background-color: transparent;
 	display: flex;
 	flex-wrap: wrap;
