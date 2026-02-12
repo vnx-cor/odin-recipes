@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 
 	// User Comment Input (Blur) 
-	commentInputContainer.addEventListener("blue", () => { 
+	commentInputContainer.addEventListener("blur", () => { 
 		commentInputContainer.remove("btnContainer");
 	});
 
