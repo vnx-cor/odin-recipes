@@ -615,3 +615,15 @@ body {
 }
 
 /*Others*/
+.comment__section-others {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.comment__section-other {
+	display: flex;
+	flex-wrap: wrap;
+}
+.comment__text {
+	flex: 1 1 100%;
+}
