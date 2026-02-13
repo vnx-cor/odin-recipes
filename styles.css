@@ -626,4 +626,5 @@ body {
 }
 .comment__text {
 	flex: 1 1 100%;
+	margin-left: 3.4rem;
 }
