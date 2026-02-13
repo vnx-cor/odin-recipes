@@ -618,7 +618,7 @@ body {
 .comment__section-others {
 	display: flex;
 	flex-direction: column;
-	gap: 10px;
+	gap: 25px;
 }
 .comment__section-other-profile {
 	display: flex;
@@ -628,7 +628,21 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 }
+
+.comment__author {
+	font-size: 1.05rem;
+	font-weight: 600;
+	margin-right: 0.7rem;
+}
+.comment__timestamp {
+	font-size: 0.9rem;
+	font-weight: 500;
+	color: rgb(95, 95, 95);
+}
 .comment__text {
 	flex: 1 1 100%;
+	margin-top: 0.05rem;
 	margin-left: 3.4rem;
+	color: rgb(71, 71, 71);
+	letter-spacing: 3%;
 }
