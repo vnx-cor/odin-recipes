@@ -632,6 +632,8 @@ body {
 .comment__container-header {
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
+	gap: 0.6rem;
 }
 .comment__header {
 	font-size: 1.5rem;
