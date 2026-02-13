@@ -60,7 +60,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// User Comment Input (User Adds Comment)
 	commentInput.addEventListener("input", () => {
+		// Enable Buttons if User Comment Input is not blank
 		btnSubmit.disabled = commentInput.value.trim() === "";
 		btnCancel.disabled = commentInput.value.trim() === "";
+
+		// Increase Opacity of Buttons (Enable Effect Styling)
+		btnSubmit.style.opacity = "1.0";
+		btnCancel.style.opacity = "1.0";
 	});
 });
