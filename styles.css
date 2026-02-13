@@ -642,7 +642,7 @@ body {
 }
 .comment__total {
 	display: flex;
-	height: 1.7rem;
+	height: 1.45rem;
 	font-size: 0.9rem;
 	font-weight: 600;
 	background-color: var(--accent-color);
@@ -651,6 +651,7 @@ body {
 	border-radius: 19px;
 	justify-content: center;
 	align-items: center;
+	margin-top: 3.5px;
 }
 
 .comment__author {
