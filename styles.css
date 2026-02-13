@@ -620,6 +620,10 @@ body {
 	flex-direction: column;
 	gap: 10px;
 }
+.comment__section-other-profile {
+	display: flex;
+	align-items: center;
+}
 .comment__section-other {
 	display: flex;
 	flex-wrap: wrap;
