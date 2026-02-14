@@ -54,11 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		commentInputContainer.appendChild(btnContainer);
 	});
 
-	// User Comment Input (Blur) 
-	commentInput.addEventListener("blur", () => { 
-		commentInputContainer.removeChild(btnContainer);
-	});
-
 	// Update Buttons based on value of commentInput
 	function updateButtons() {
 		// Check if Comment Input is empty
@@ -78,8 +73,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// Remove Input Value of User Comment if Submitted (Mock Submitted Effect)
 	btnSubmit.addEventListener("click", () => {
-		commentInput.value = "";
-		updateButtons();
+		// Add Delay Effect when Submitted
+		setTimeout(() => {
+			commentInput.value = "";
+			updateButtons();
+			commentInputContainer.removeChild(btnContainer);
+		}, 50);
 	});
 
 	// Dynamic Total Comment Counter
