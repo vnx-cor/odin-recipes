@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 	});
 
+
 	// Comment Input Animation
 	const commentInputContainer = document.querySelector(".comment__section-user");
 	const commentInput = document.querySelector(".comment__input");
@@ -71,4 +72,11 @@ document.addEventListener("DOMContentLoaded", () => {
 		btnSubmit.style.opacity = isEmpty ? "0.7" : "1.0";
 		btnCancel.style.opacity = isEmpty ? "0.7" : "1.0";
 	});
+
+
+	// Dynamic Total Comment Counter
+	const totalComment = document.querySelector(".comment__total");	  // Container for the number of comments
+	const comments = document.querySelectorAll(".comment__text"); 	  // Comments to be counted
+
+	totalComment.textContent = comments.length;
 });
