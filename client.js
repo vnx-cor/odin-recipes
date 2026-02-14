@@ -59,8 +59,8 @@ document.addEventListener("DOMContentLoaded", () => {
 		commentInputContainer.removeChild(btnContainer);
 	});
 
-	// User Comment Input (User Adds Comment)
-	commentInput.addEventListener("input", () => {
+	// Update Buttons based on value of commentInput
+	function updateButtons() {
 		// Check if Comment Input is empty
 		const isEmpty = commentInput.value.trim() === "";
 
@@ -71,8 +71,10 @@ document.addEventListener("DOMContentLoaded", () => {
 		// Change opacity (Enabled Styling) 
 		btnSubmit.style.opacity = isEmpty ? "0.7" : "1.0";
 		btnCancel.style.opacity = isEmpty ? "0.7" : "1.0";
-	});
+	}
 
+	// User Comment Input (User Adds Comment)
+	commentInput.addEventListener("input", updateButtons)
 
 	// Dynamic Total Comment Counter
 	const totalComment = document.querySelector(".comment__total");	  // Container for the number of comments
