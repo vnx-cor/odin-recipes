@@ -76,6 +76,12 @@ document.addEventListener("DOMContentLoaded", () => {
 	// User Comment Input (User Adds Comment)
 	commentInput.addEventListener("input", updateButtons)
 
+	// Remove Input Value of User Comment if Submitted (Mock Submitted Effect)
+	btnSubmit.addEventListener("click", () => {
+		commentInput.value = "";
+		updateButtons();
+	});
+
 	// Dynamic Total Comment Counter
 	const totalComment = document.querySelector(".comment__total");	  // Container for the number of comments
 	const comments = document.querySelectorAll(".comment__text"); 	  // Comments to be counted
