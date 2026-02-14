@@ -193,6 +193,7 @@ body {
 	margin-left: 1.1rem;
 	padding-left: 1.3rem; 
 	align-items: center;
+	column-gap: 10px;
 	border-radius: 3px;
 }
 
@@ -206,7 +207,6 @@ body {
 	display: block;
 	font-size: 1.1rem;
 	font-family: var(--font-header);
-	padding-left: 0.8rem;
 }
 
 .sidebar__icon--large {
