@@ -77,6 +77,10 @@ document.addEventListener("DOMContentLoaded", () => {
 		const commentSection = document.querySelector(".comment__section-others"); 	// Comment Section
 		const commentContainer = document.querySelector("comment__section-other");  // Comment Container
 
+		// Users Account Information
+		const username = document.querySelector('.profile__name');
+		const userProfileImage = document.querySelector('.profile__image');	A
+
 		// Get User Comment Value to be appended
 		const userComment = commentInput.value;
 
