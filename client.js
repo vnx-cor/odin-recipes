@@ -73,6 +73,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 	// Remove Input Value of User Comment if Submitted (Mock Submitted Effect)
 	btnSubmit.addEventListener("click", () => {
+		// Append User Comment to Comment Section
+		
+		
 		// Add Delay Effect when Submitted
 		setTimeout(() => {
 			commentInput.value = "";
@@ -86,4 +89,8 @@ document.addEventListener("DOMContentLoaded", () => {
 	const comments = document.querySelectorAll(".comment__text"); 	  // Comments to be counted
 
 	totalComment.textContent = comments.length;
+
+	// Append User Comment when Submitted
+	const commentSection = document.querySelector(".comment__section-others"); 	// Comment Section
+	const commentContainer = document.querySelector("comment__section-other");  // Comment Container
 });
