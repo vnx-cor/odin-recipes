@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			day: 'numeric',
 			year: 'numeric'
 		}
-		const formattedDate = Intl.DateTimeFormat("en-US", options);
+		const formattedDate = Intl.DateTimeFormat("en-US", options).format(currentDate);
 
 		// Elements to be Appended to the Comment Section
 		const elementProfile = document.createElement("div");
