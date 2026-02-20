@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		// Users Account Information
 		const username = document.querySelector('.profile__name');
-		const userProfileImage = document.querySelector('.profile__image');	A
+		const userProfileImage = document.querySelector('.profile__image');
 
 		// Get User Comment Value to be appended
 		const userComment = commentInput.value;
@@ -119,9 +119,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		// User Profile Child Elements
 		elementImage.classList.add("comment__avatar");
-		elementImage.src = "../images/navigation-header/user-profile-picture.webp";
+		elementImage.src = userProfileImage.src;
 		elementImage.alt = "User profile picture";
 
+		elementAuthor.classList.add("comment__author");
+		elementAuthor.textContent = username.textContent;
 
 		// Append User Comment to Comment Section
 		
