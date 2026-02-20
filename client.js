@@ -117,6 +117,12 @@ document.addEventListener("DOMContentLoaded", () => {
 		// User Profile Container
 		elementProfile.classList.add("comment__section-other-profile");
 
+		// User Profile Child Elements
+		elementImage.classList.add("comment__avatar");
+		elementImage.src = "../images/navigation-header/user-profile-picture.webp";
+		elementImage.alt = "User profile picture";
+
+
 		// Append User Comment to Comment Section
 		
 		// Add Delay Effect when Submitted
