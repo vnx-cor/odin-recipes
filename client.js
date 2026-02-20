@@ -95,6 +95,10 @@ document.addEventListener("DOMContentLoaded", () => {
 		}
 		const formattedDate = Intl.DateTimeFormat("en-US", options);
 
+		// Elements to be Appended
+		const elementProfile = document.createElement("div");
+		const elementComment = document.createElement("p");
+
 		// Append User Comment to Comment Section
 		
 		
