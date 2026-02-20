@@ -109,6 +109,9 @@ document.addEventListener("DOMContentLoaded", () => {
 		elementProfile.appendChild(elementAuthor);		// Username
 		elementProfile.appendChild(elementTimestamp);	// Date when posted
 
+		// Add User Comment's textContent to elementComment
+		elementComment.textContent = userComment;
+
 		// Append User Comment to Comment Section
 		
 		// Add Delay Effect when Submitted
