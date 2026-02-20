@@ -104,8 +104,12 @@ document.addEventListener("DOMContentLoaded", () => {
 		const elementAuthor = document.createElement("p");
 		const elementTimestamp = document.createElement("time");
 
+		// Append User Information Container (element) to elementProfile (Comment Section's Other Profile)
+		elementProfile.appendChild(elementImage);		// User's Profile Image
+		elementProfile.appendChild(elementAuthor);		// Username
+		elementProfile.appendChild(elementTimestamp);	// Date when posted
+
 		// Append User Comment to Comment Section
-		
 		
 		// Add Delay Effect when Submitted
 		setTimeout(() => {
