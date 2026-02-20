@@ -112,6 +112,11 @@ document.addEventListener("DOMContentLoaded", () => {
 		// Add User Comment's textContent to elementComment
 		elementComment.textContent = userComment;
 
+
+		/* Add class and Attributes to created elements*/
+		// User Profile Container
+		elementProfile.classList.add("comment__section-other-profile");
+
 		// Append User Comment to Comment Section
 		
 		// Add Delay Effect when Submitted
