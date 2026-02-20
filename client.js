@@ -87,6 +87,14 @@ document.addEventListener("DOMContentLoaded", () => {
 		// Get Current Date
 		const currentDate = new Date();
 
+		// Formatted Current Date
+		const options = {
+			month: 'long',
+			day: 'numeric',
+			year: 'numeric'
+		}
+		const formattedDate = Intl.DateTimeFormat("en-US", options);
+
 		// Append User Comment to Comment Section
 		
 		
