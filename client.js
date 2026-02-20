@@ -84,6 +84,9 @@ document.addEventListener("DOMContentLoaded", () => {
 		// Get User Comment Value to be appended
 		const userComment = commentInput.value;
 
+		// Get Current Date
+		const currentDate = new Date();
+
 		// Append User Comment to Comment Section
 		
 		
